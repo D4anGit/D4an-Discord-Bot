@@ -35,7 +35,7 @@ client.on('messageCreate', async (message) => {
         );
 
         await message.channel.send({
-            content: 'Click the button below to create a ticket.',
+            content: 'Click the button below to receive assistance from our staff team with any issue.',
             components: [row]
         });
     }
